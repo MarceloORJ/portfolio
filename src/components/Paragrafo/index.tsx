@@ -5,8 +5,8 @@ export type Props = {
   tipo?: 'principal' | 'secundario'
 }
 
-const Paragrafp = ({ children, tipo = 'principal' }: Props) => (
+const Paragrafo = ({ children, tipo = 'principal' }: Props) => (
   <P tipo={tipo}>{children}</P>
 )
 
-export default Paragrafp
+export default Paragrafo
